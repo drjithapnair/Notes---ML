@@ -1,53 +1,65 @@
-# Complete SQL Commands Reference
- ##🔹 1. Data Definition Language (DDL)
-Used to define and modify database structures.
 
-# Command	Description
-CREATE	Creates a new table, database, index, view, etc.
-ALTER	Modifies an existing database object like a table
-DROP	Deletes an entire table, database, view, etc.
-TRUNCATE	Removes all records from a table (cannot be rolled back)
-RENAME	Renames a database object (like a table)
+# 📘 SQL Commands – Complete Reference
 
-# 🔹 2. Data Manipulation Language (DML)
-Used to manipulate data stored in tables.
+## 🔹 1. Data Definition Language (DDL)
 
-Command	Description
-SELECT	Retrieves data from one or more tables
-INSERT	Inserts new data into a table
-UPDATE	Updates existing data in a table
-DELETE	Deletes data from a table
-MERGE	Combines INSERT and UPDATE operations
+| Command    | Description                                           |
+|------------|-------------------------------------------------------|
+| `CREATE`   | Creates a new table, database, index, view, etc.      |
+| `ALTER`    | Modifies an existing database object like a table     |
+| `DROP`     | Deletes an entire table, database, view, etc.         |
+| `TRUNCATE` | Removes all records from a table (cannot be rolled back) |
+| `RENAME`   | Renames a database object (like a table)              |
 
-# 🔹 3. Data Control Language (DCL)
-Used to control access to data in the database.
+---
 
-Command	Description
-GRANT	Gives user access privileges
-REVOKE	Removes user access privileges
+## 🔹 2. Data Manipulation Language (DML)
 
-# 🔹 4. Transaction Control Language (TCL)
-Used to manage transactions in a database.
+| Command   | Description                              |
+|-----------|------------------------------------------|
+| `SELECT`  | Retrieves data from one or more tables   |
+| `INSERT`  | Inserts new data into a table            |
+| `UPDATE`  | Updates existing data in a table         |
+| `DELETE`  | Deletes data from a table                |
+| `MERGE`   | Combines `INSERT` and `UPDATE` operations|
 
-Command	Description
-COMMIT	Saves all changes made by the transaction
-ROLLBACK	Undoes changes since the last COMMIT
-SAVEPOINT	Sets a point to which you can roll back
-SET TRANSACTION	Specifies properties for a transaction
+---
 
-# 🔹 5. Other Useful SQL Clauses & Commands
-Command / Clause	Description
-WHERE	Filters records
-GROUP BY	Groups records for aggregation
-ORDER BY	Sorts the result set
-HAVING	Filters groups (used with GROUP BY)
-JOIN	Combines rows from two or more tables
-UNION / UNION ALL	Combines results of two queries
-IN, BETWEEN, LIKE	Used for filtering values
-DISTINCT	Removes duplicate records
-LIMIT / TOP	Limits the number of records returned
-CASE	Conditional logic in queries
-IS NULL / IS NOT NULL	Checks for NULL values
+## 🔹 3. Data Control Language (DCL)
+
+| Command  | Description                 |
+|----------|-----------------------------|
+| `GRANT`  | Gives user access privileges|
+| `REVOKE` | Removes user access privileges|
+
+---
+
+## 🔹 4. Transaction Control Language (TCL)
+
+| Command        | Description                                |
+|----------------|--------------------------------------------|
+| `COMMIT`       | Saves all changes made by the transaction  |
+| `ROLLBACK`     | Undoes changes since the last `COMMIT`     |
+| `SAVEPOINT`    | Sets a point to which you can roll back    |
+| `SET TRANSACTION` | Defines a new transaction               |
+
+---
+
+## 🔹 5. Other Useful SQL Clauses & Commands
+
+| Clause / Command | Description                              |
+|------------------|------------------------------------------|
+| `WHERE`          | Filters records                          |
+| `GROUP BY`       | Groups records for aggregation           |
+| `ORDER BY`       | Sorts the result set                     |
+| `HAVING`         | Filters groups (used with `GROUP BY`)    |
+| `JOIN`           | Combines rows from two or more tables    |
+| `UNION` / `UNION ALL` | Combines results of two queries    |
+| `IN`, `BETWEEN`, `LIKE` | Used for filtering values        |
+| `DISTINCT`       | Removes duplicate records                |
+| `LIMIT` / `TOP`  | Limits the number of records returned    |
+| `CASE`           | Conditional logic in queries             |
+| `IS NULL` / `IS NOT NULL` | Checks for NULL values         |
 
 
 ## Data Definition Language (DDL) Commands

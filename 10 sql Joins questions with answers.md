@@ -181,5 +181,4 @@ GROUP BY s.student_id, s.student_name;
 
 ***
 
-Let me know if you want me to explain any of these queries or if you want them adjusted for a specific SQL database system!
 

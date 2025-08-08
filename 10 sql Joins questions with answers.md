@@ -1,8 +1,6 @@
 
 # 10 sql Joins questions with answers  also create 2 tables and insert 10 values each table name student and mark
 
-Sure! Below are two sample tables `student` and `mark` with 10 rows each. After that, I will provide 10 SQL JOIN questions along with their answers based on these tables.
-
 ***
 
 ### Step 1: Create Tables and Insert Data

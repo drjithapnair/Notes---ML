@@ -1,4 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
 # 10 sql Joins questions with answers  also create 2 tables and insert 10 values each table name student and mark
 
